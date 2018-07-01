@@ -5,7 +5,7 @@ async function strReplace (oldstr, newstr, args) {
   return foreach(args[0], async f => {
     if (f === '') return
     return spawn('sed', '', ['-i', `s/${oldstr}/${newstr}/g`, f])
-  }, args.slice(1))
+  }, args.slice(3))
 }
 
 module.exports = strReplace

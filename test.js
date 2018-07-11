@@ -5,6 +5,10 @@ const pify = require('pify')
 const fs = pify(require('fs'))
 
 describe('strReplace', function () {
+  beforeEach(async function () {
+    await fs.writeFile('./fixtures/pizza', 'ny')
+    await fs.writeFile('./fixtures/depth/pizza', 'ny')
+  })
   afterEach(async function () {
     await fs.writeFile('./fixtures/pizza', 'ny')
     await fs.writeFile('./fixtures/depth/pizza', 'ny')

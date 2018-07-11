@@ -1,6 +1,6 @@
 {
   "name": "guld-fs-str-replace",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Replace old-string with new-string for all files in path.",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
   "author": "isysd",
   "license": "MIT",
   "dependencies": {
-    "guld-fs-foreach": "^1.1.8",
-    "guld-spawn": "^1.0.3",
+    "guld-fs-foreach": "^1.1.9",
+    "guld-spawn": "^1.0.4",
     "pify": "^3.0.0"
   },
   "devDependencies": {

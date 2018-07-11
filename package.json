@@ -1,6 +1,6 @@
 {
   "name": "guld-fs-str-replace",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Replace old-string with new-string for all files in path.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "isysd",
   "license": "MIT",
   "dependencies": {
-    "guld-fs-foreach": "^1.1.5",
+    "guld-fs-foreach": "^1.1.6",
     "guld-spawn": "^1.0.1",
     "pify": "^3.0.0"
   },
@@ -41,5 +41,7 @@
   "readme": "README.md",
   "engines": {
     "node": ">=7"
-  }
+  },
+  "homepage": "https://github.com/isysd/tech-js-node_modules-guld-fs-str-replace#readme",
+  "repository": "git@github.com:isysd/tech-js-node_modules-guld-fs-str-replace.git"
 }

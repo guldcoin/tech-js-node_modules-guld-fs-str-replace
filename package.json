@@ -17,8 +17,8 @@
   "author": "isysd",
   "license": "MIT",
   "dependencies": {
-    "guld-fs-foreach": "^1.1.12",
-    "guld-spawn": "^1.0.5",
+    "guld-fs-foreach": "^1.1.13",
+    "guld-spawn": "^1.0.6",
     "pify": "^3.0.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "guld-fs-str-replace",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "description": "Replace old-string with new-string for all files in path.",
   "main": "index.js",
   "scripts": {
